@@ -347,4 +347,8 @@
   .dialog-id[open] {
     max-inline-size: 341px;
   }
+
+  .button__type-save {
+    flex-direction: column;
+  }
 }
