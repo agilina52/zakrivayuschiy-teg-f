@@ -1,1 +1,1 @@
-https://agilina52.github.io/zakrivayuschiy-teg-f/
+https://github.com/agilina52/zakrivayuschiy-teg-f.git
