@@ -17,7 +17,6 @@
   background-image: var(--body--pattern);
   background-size: cover;
   background-attachment: fixed;
-  background-size: 10px 10px;
   background-color: var(--bg-color);
   margin: 100px auto;
 }
@@ -256,6 +255,7 @@
 .icon {
   position: relative;
   z-index: 10;
+  width: 21px;
 }
 
 .button:focus {
@@ -293,9 +293,6 @@
   color:#fff;
 }
 
-.icon {
-  width: 21px;
-}
 
 .popap[open] {
   position: fixed;
