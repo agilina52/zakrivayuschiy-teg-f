@@ -25,10 +25,10 @@
   font-weight: 400;
   color: #000;
   background-color: #fff;
-  padding: 128px 120px;
+  padding: clamp(7.5rem, 7.3239rem + 0.7512vw, 8rem) 0 clamp(7.5rem, 7.3239rem + 0.7512vw, 8rem);
   margin: 0 auto 100px;
   width: clamp(375px, 100%, 700px);
-  height: 368px;
+  height: clamp(327px, 100%, 368px);
   border: 2px solid var(--color-contour);
   text-transform: uppercase;
   display: flex;
@@ -361,8 +361,6 @@
   .header {
     max-inline-size: 100%;
     margin: 100px auto;
-    padding: 120px 14px;
-    height: 327px;
   }
 
   .card__body {
